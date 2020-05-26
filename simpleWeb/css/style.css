@@ -1,0 +1,112 @@
+html {
+  background-color: #e8eaf6;
+}
+
+a.active {
+  background-color: #cb1452;
+}
+
+.navbar-fixed nav {
+  background-color: #ec407a;
+}
+
+@media (min-width: 992px) {
+  #about .container {
+    margin-top: 1.5em;
+  }
+}
+@media (max-width: 992px) {
+  #about .container {
+    margin-top: 4.5em;
+  }
+}
+#about .container .about-text {
+  margin-top: 1em;
+}
+#about .container h4 {
+  font-size: 2em;
+}
+#about .container h4 i {
+  font-size: .7em;
+  padding-right: .4em;
+}
+#about .container .first {
+  margin-bottom: -.2em;
+}
+#about .container .about-description .first {
+  margin-top: 2em;
+}
+#about .container .about-description i {
+  padding-right: 1em;
+}
+#about .container .social {
+  margin-top: 3em;
+}
+#about .container .social a {
+  margin-right: 1em;
+}
+#about .container .social i {
+  color: #000;
+}
+#about .container .social i:hover {
+  color: #ec407a;
+}
+
+#portfolio {
+  background-color: white;
+  padding-bottom: 1em;
+}
+#portfolio .title {
+  padding-top: 1em;
+  text-align: center;
+}
+#portfolio .portfolio div {
+  text-align: center;
+}
+#portfolio .portfolio div a {
+  color: #ec407a;
+}
+#portfolio .portfolio div h5 {
+  margin-bottom: -.5em;
+}
+#portfolio .portfolio div.fatpitch .image {
+  height: 256px;
+  overflow: hidden;
+}
+#portfolio .portfolio div.fatpitch .image img {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+@media (max-width: 992px) {
+  #contact {
+    height: 35em;
+  }
+}
+#contact input:focus, #contact textarea:focus {
+  border-bottom-color: #ec407a;
+  box-shadow: 0 1px 0 0 #ec407a;
+}
+#contact input:focus + label, #contact textarea:focus + label {
+  color: #ec407a;
+}
+#contact .submit {
+  text-align: center;
+}
+#contact .submit button {
+  background-color: #ec407a;
+  position: relative;
+  top: 4em;
+  right: -2em;
+  width: 15em;
+}
+#contact .submit button:hover {
+  background-color: #d75581;
+}
+
+footer.page-footer {
+  background-color: #ec407a;
+}
+footer.page-footer .footer-copyright {
+  background-color: #ec407a;
+}

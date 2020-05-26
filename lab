@@ -1,0 +1,18 @@
+Program 7 
+Create a login page to authenticate an user using PWA
+-- Service worker
+-- Simple maniest.json
+-- Authentication page in index.html with fetch api demo for -- success.html + unsuccessful.html
+
+
+Program 8
+Build a simple webpage using PWA
+-- Service worker
+-- Fetch + Caching strategies (static and dynamic)
+
+
+Program 9
+Devise a PWA to fetch the GitHub details foe a particular person
+-- Retrieving github information of a user (json form) and display on a web page
+-- Add to home screen (detailed manifest.json)
+

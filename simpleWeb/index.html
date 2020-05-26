@@ -1,0 +1,97 @@
+<html>
+	<head>
+		<title>Simple WebPage</title>
+		<link rel="manifest" href="manifest.json">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css'>
+	</head>
+	<body>
+		<nav class="blue">
+			<div class="nav-wrapper container">
+				<a href="index.html" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+				<a href="" class="brand-logo">Portfolio</a>
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a href="link.html">GitHub</a></li>
+					<li><a href="">Twitter</a></li>
+					<li><a href="">LinkedIn</a></li>
+				</ul>
+			</div>
+			<ul id="slide-out" class="sidenav">
+				<li>
+					<div class="user-view">
+						<div class="background">
+							<img src="images/back.jpg" alt="Background User View">
+						</div>
+						<a href=""><img class="circle" src="images/man.png"></a>
+						<a href=""><span class="white-text name">Yeshwanth Jojode</span></a>
+						<a href=""><span class="white-text email">yesh.jojo444@gmail.com</span></a>
+					</div>
+				</li>
+				<li><a class="waves-effect" href="link.html">GitHub</a></li>
+				<li><a class="waves-effect" href="">Twitter</a></li>
+				<li><a class="waves-effect" href="">LinkedIn</a></li>
+			</ul>
+		</nav>
+		<section id="about" class="scrollspy">
+			<div class="container">
+				<div class="row">
+					<div class="col s12 m4 image center-align">
+						<img src="images/man.png" alt="my photo" class="responsive-img" />
+					</div>
+					<div class="about-text col s12 m7 offset-m1">
+						<h4 class="first"><i class="material-icons">chevron_right</i>Android Developer</h4>
+						<h4><i class="material-icons">chevron_right</i>Django Developer</h4>
+						<h4><i class="material-icons">chevron_right</i>ANN with custome layers</h4>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="portfolio" class="scrollspy">
+			<div class="container">
+				<h3 class="title">Portfolio</h3>
+				<div class="row portfolio">
+					<div class="col s12 m6 center">
+						<a href=""><h5 class="blue-text">Django</h5></a>
+						<p>Django projects with MySQL</p>
+					</div>
+					<div class="col s12 m6 center">
+						<a href=""><h5 class="blue-text">PWA</h5></a>
+						<p>PWA projects with service-worker and cache</p>
+					</div>
+				</div>
+				<div class="row portfolio">
+					<div class="col s12 m6 center">
+						<a href=""><h5 class="blue-text">Android</h5></a>
+						<p>Android projects with MySQL and Firebase</p>
+					</div>
+					<div class="col s12 m6 center">
+						<a href=""><h5 class="blue-text">TensorFlow</h5></a>
+						<p>Artificial neural network with custom layers</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer class="page-footer blue">
+			<div class="footer-copyright blue">
+				<div class="blue container">
+					© 2020 Jojode
+				</div>
+			</div>
+		</footer>
+		<script>
+			try {
+				if('serviceWorker' in navigator) {
+					navigator.serviceWorker.register('service-worker.js')
+					.then(registration =>{
+						console.log("service-worker registered");
+					})
+				}
+			}
+			catch(err) {
+				console.log(err);
+			}
+		</script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js'></script><script  src="js/style.js"></script>
+	</body>
+</html>

@@ -1,0 +1,52 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="css/materialize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<title>GitHub User Data</title>
+	<link rel="manifest" href="manifest.json">
+</head>
+<body class="green accent-2">
+	<div class="section"></div>
+	<div class="row">
+		<div class="col s12 l4 offset-l4">
+			<div class="card white">
+				<div class="card-content">
+					<div class="row">
+						<div class="input-field col s12">
+							<i class="material-icons prefix">person</i>
+							<input type="text" id="uname"/>
+							<label for="uname">Enter username</label>
+						</div>
+					</div>
+					<div class="row center-align">
+						<button id="fetch_user" class="btn red">Submit</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="profilecard">
+		<img id="gitImg" style="width:50%; margin-top: 10px;">
+		<h4 id="gitName"></h4>
+		<p id="gitBio"></p>
+		<p class="center-align" id="gitRepo"></p>
+		<p id="gitLoc"></p>
+	</div>
+	
+	<script>
+        if('serviceWorker' in navigator){
+            try{
+                navigator.serviceWorker.register('service-worker.js')
+                    .then(registration => {
+                        console.log('service worker registered');
+                })
+            }
+            catch (err){
+                console.log(err);
+            }
+        }    
+    </script>
+    <script src="js/main.js"></script>
+</body>
+</html>

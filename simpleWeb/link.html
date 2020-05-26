@@ -1,0 +1,68 @@
+<html>
+	<head>
+		<title>Simple WebPage</title>
+		<link rel="manifest" href="manifest.json">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css'>
+	</head>
+	<body class="white">
+		<nav class="blue">
+			<div class="nav-wrapper container">
+				<a href="" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+				<a href="index.html" class="brand-logo">Portfolio</a>
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a href="">GitHub</a></li>
+					<li><a href="">Twitter</a></li>
+					<li><a href="">LinkedIn</a></li>
+				</ul>
+			</div>
+			<ul id="slide-out" class="sidenav">
+				<li>
+					<div class="user-view">
+						<div class="background">
+							<img src="images/back.jpg" alt="Background User View">
+						</div>
+						<a href=""><img class="circle" src="images/man.png"></a>
+						<a href=""><span class="white-text name">Yeshwanth Jojode</span></a>
+						<a href=""><span class="white-text email">yesh.jojo444@gmail.com</span></a>
+					</div>
+				</li>
+				<li><a class="waves-effect" href="">GitHub</a></li>
+				<li><a class="waves-effect" href="">Twitter</a></li>
+				<li><a class="waves-effect" href="">LinkedIn</a></li>
+			</ul>
+		</nav>
+
+		<section id="portfolio" class="scrollspy">
+			<div class="container">
+				<h4 id="gitTitle" class="title"></h4>
+				<a><h6 id="gitID" class="title"></h6></a>
+				<div class="section"></div>
+				<div class="row portfolio">
+					<div class="col s12 m6 center">
+						<a href=""><h5 id="repo1" class="blue-text"></h5></a>
+						<p id="desc1"></p>
+					</div>
+					<div class="col s12 m6 center">
+						<a href=""><h5 id="repo2" class="blue-text"></h5></a>
+						<p id="desc2"></p>
+					</div>
+				</div>
+				<div class="row portfolio">
+					<div class="col s12 m6 center">
+						<a href=""><h5 id="repo3" class="blue-text"></h5></a>
+						<p id="desc3"></p>
+					</div>
+					<div class="col s12 m6 center">
+						<a href=""><h5 id="repo4" class="blue-text"></h5></a>
+						<p id="desc4"></p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js'></script>
+		<script  src="js/style.js"></script>
+		<script  src="js/main.js"></script>
+	</body>
+</html>

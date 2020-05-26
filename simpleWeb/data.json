@@ -1,0 +1,24 @@
+{
+	"gitData":{
+		"details" :{
+			"name" : "Jojode Yeswanth",
+			"id" : "@YeshJojo"
+		},
+		"repo1":{
+			"name": "android-chat-app",
+			"desc" : "Chat application using real-time database"
+		},
+		"repo2": {
+			"name": "django-blog-app",
+			"desc" : "Blog application using MySQL database"
+		},
+		"repo3": {
+			"name": "ticket-reservation-app",
+			"desc" : "Ticket Reservation application using real-time database"
+		},
+		"repo4":{
+			"name": "ticket-reservation-app",
+			"desc" : "Ticket Reservation application using real-time database"
+		}
+	}
+}
